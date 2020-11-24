@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="products:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/products_war</output-path>
+    <root id="archive" name="products_war.war">
+      <element id="javaee-facet-resources" facet="service-tomcat/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="service-tomcat" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="activation-1.1.1" />
+          <element id="library" level="project" name="jersey" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/service-tomcat/web/WEB-INF/web.xml" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/service-tomcat/web/WEB-INF/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

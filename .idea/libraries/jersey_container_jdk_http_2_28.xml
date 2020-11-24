@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jersey-container-jdk-http-2.28">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jersey-container-jdk-http-2.28.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
